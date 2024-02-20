@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git filter-branch --env-filter -f '
+git filter-branch -f --env-filter '
 OLD_EMAIL="mihirkanzariya@Mihirs-MacBook-Pro.local"
 CORRECT_NAME="ishita301"
 CORRECT_EMAIL="ishita.imscit21@gmail.com"
