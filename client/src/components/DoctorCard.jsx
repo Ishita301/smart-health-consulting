@@ -49,7 +49,7 @@ const DoctorCard = ({ ele }) => {
 
       <img
           // className="user-table-pic"
-          src={ele?.cert ||
+          src={ele?.file ||
             "https://icon-library.com/images/698985-icon-138-certificate-512.png"}
           // alt={ele?.firstname}
         />
