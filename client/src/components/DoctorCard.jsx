@@ -43,6 +43,18 @@ const DoctorCard = ({ ele }) => {
         <strong>Phone: </strong>
         {ele?.userId?.mobile}
       </p>
+      <strong>Certificate: </strong>
+      <div className={`card-img2 flex-center`}>
+      
+
+      <img
+          // className="user-table-pic"
+          src={ele?.cert ||
+            "https://icon-library.com/images/698985-icon-138-certificate-512.png"}
+          // alt={ele?.firstname}
+        />
+      </div>
+
       <button
         className="btn appointment-btn"
         onClick={handleModal}
@@ -58,5 +70,7 @@ const DoctorCard = ({ ele }) => {
     </div>
   );
 };
+
+
 
 export default DoctorCard;

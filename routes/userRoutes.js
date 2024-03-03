@@ -4,6 +4,7 @@ const userController = require("../controllers/userController");
 const userRouter = express.Router();
 
 userRouter.get("/getuser/:id", auth, userController.getuser);
+userRouter.get("/test", (req, res)=> {console.log("Here")});
 
 userRouter.get("/getallusers", auth, userController.getallusers);
 

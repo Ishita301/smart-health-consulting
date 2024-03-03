@@ -48,6 +48,7 @@ const applyfordoctor = async (req, res) => {
 
     return res.status(201).send("Application submitted successfully");
   } catch (error) {
+    console.log("Error:", error)
     res.status(500).send("Unable to submit application");
   }
 };

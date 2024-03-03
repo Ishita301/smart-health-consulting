@@ -102,6 +102,7 @@ const AdminApplications = () => {
                     <th>Last Name</th>
                     <th>Email</th>
                     <th>Mobile No.</th>
+                    <th>Certificate</th>
                     <th>Experience</th>
                     <th>Specialization</th>
                     <th>Fees</th>
@@ -127,6 +128,7 @@ const AdminApplications = () => {
                         <td>{ele?.userId?.lastname}</td>
                         <td>{ele?.userId?.email}</td>
                         <td>{ele?.userId?.mobile}</td>
+                        <td>{<a  target="_blank" href={ele?.file}>View Cert</a>}</td>
                         <td>{ele?.experience}</td>
                         <td>{ele?.specialization}</td>
                         <td>{ele?.fees}</td>
