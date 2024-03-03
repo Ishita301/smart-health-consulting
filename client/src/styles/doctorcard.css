@@ -19,6 +19,12 @@
   border-radius: 50%;
 }
 
+.card-img2 img {
+  width: 200px;
+  height: 160px;
+  border-radius: 0%;
+}
+
 .card-name {
   margin: 0 auto;
   font-size: 1.2rem;

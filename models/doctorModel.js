@@ -23,6 +23,11 @@ const schema = mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    file: {
+      type: String,
+      default:
+        "https://icon-library.com/images/698985-icon-138-certificate-512.png",
+    },
   },
   {
     timestamps: true,
